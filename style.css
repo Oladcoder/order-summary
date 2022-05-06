@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700;900&display=swap');
+
+html, body {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+img{
+    vertical-align: bottom;
+}
+
+html{
+    font-size: 73%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(images/pattern-background-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+
+}
+.BodyContainer{
+    height: 92vh;
+    width: 92vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: url(images/pattern-background-desktop.svg);
+
+}
+
+.card{
+height: 510px;
+width: 360px;
+background-color: white;
+border-radius: 12px;
+box-shadow: 0 0 9px px ;
+}
+#hero{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+.heroImg{
+    background:  no-repeat; 
+    min-height: 33%;
+    min-width: 100%;
+    background-image: url(images/illustration-hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#music{
+    height: 32px;
+}
+button{
+background-color: hsl(245, 75%, 52%);
+border: none;
+outline: none;
+color: white;
+border-radius: 9px;
+height: 32px;
+width: 230px;
+margin-top: 25px;
+
+}
+.firstButton{
+    box-shadow:5px 10px 10px 2px hsl(225, 100%, 94%);
+}
+p{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    margin-inline: 24px;
+    color: #8d929b
+}
+h3{
+    padding-top: 30px;
+    margin-bottom: 12px;
+    font-weight: 900;
+    font-size: 22px;
+}
+.price{
+    display: flex;
+    justify-content:;
+    width: 260px;
+    position: relative;
+    padding-block: 9px;
+    padding-inline: 1px;
+    margin-top: 10px;
+    background-color: aliceblue;
+    
+}
+.annual{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.cancel{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 72%;
+    top: 16px;
+
+}
+
+#changeLink{
+    color:  hsl(245, 75%, 52%);
+}
+
+#secondButton{
+    margin-top: 10px;
+    background-color:white;
+    color: hsl(245, 75%, 52%);
+}
+#h6{
+    font-weight:700;
+}
+.firstButton:hover{
+    background-color:hsl(225, 100%, 94%);
+    color:black
+}
+#secondButton:hover{
+    background-color:hsl(225, 100%, 94%);
+    color: black
+}
